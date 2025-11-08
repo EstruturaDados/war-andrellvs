@@ -1,3 +1,63 @@
+# 🌍 Desafio WAR Estruturado em C
+=============================================
+
+## 🎯 Objetivo Geral
+
+O objetivo é simular as mecânicas de cadastro de territórios, ataque e conquista, e cumprimento de missões, evoluindo a complexidade do código C a cada etapa.
+
+---
+
+## 🛠️ Tecnologia Utilizada
+
+* **Linguagem de Programação:** C
+* **Conceitos Principais:** `struct`, Vetores, Ponteiros, Alocação Dinâmica (`calloc`, `malloc`, `free`), Modularização em Funções, Aleatoriedade (`rand`/`srand`).
+
+---
+
+## 🗺️ Estrutura do Desafio (Níveis de Evolução)
+
+O projeto foi desenvolvido em três etapas, cada uma adicionando novas funcionalidades e requisitos técnicos:
+
+### 🟢 Nível Novato: Cadastro Inicial
+
+Foco na fundação do jogo, utilizando estruturas de dados básicas.
+
+* **Conceitos:** Criação da `struct Territorio`, uso de **vetor estático**.
+* **Funcionalidade:** Cadastro e exibição do **Nome**, **Cor do Exército** e **Número de Tropas** de 5 territórios.
+
+### 🔵 Nível Aventureiro: Batalhas Estratégicas
+
+Introdução à dinâmica do jogo e ao gerenciamento avançado de memória.
+
+* **Conceitos:** **Alocação dinâmica** de memória (`calloc`/`free`), manipulação de dados via **ponteiros**.
+* **Funcionalidade:** Simulação interativa de **batalhas** com rolagem de dados aleatórios (`rand()`) e lógica de conquista/perda de tropas.
+
+### 🟣 Nível Mestre: Missões e Modularização Total
+
+Foco em design de software e lógica estratégica.
+
+* **Conceitos:** **Modularização total** do código, alocação dinâmica para **strings de missão** (ponteiro para ponteiro).
+* **Funcionalidade:** Implementação de um sistema de **missões aleatórias** e verificação de vitória para encerrar o jogo.
+
+---
+
+## ⚙️ Como Compilar e Rodar
+
+Para compilar e rodar o projeto, utilize um compilador C (como GCC) em seu terminal:
+
+1.  **Compilar:**
+    ```bash
+    gcc -o war war_estruturado.c
+    ```
+2.  **Executar:**
+    ```bash
+    ./war
+    ```
+
+Siga as instruções exibidas no terminal para cadastrar os territórios e iniciar a fase de ataque e verificação de missão.
+````
+
+====================================================================
 # 🗺️ Desafio WAR Estruturado – Conquista de Territórios
 
 Bem-vindo ao **Desafio WAR Estruturado!** Inspirado no famoso jogo de estratégia, este desafio convida você a programar diferentes versões do jogo WAR, evoluindo seus conhecimentos em **C** à medida que avança pelos níveis **Novato**, **Aventureiro** e **Mestre**.
