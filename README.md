@@ -55,10 +55,14 @@ Para compilar e rodar o projeto, utilize um compilador C (como GCC) em seu termi
     ```
 
 Siga as instruções exibidas no terminal para cadastrar os territórios e iniciar a fase de ataque e verificação de missão.
-````
 
 ````
+````
+
 ====================================================================
+====================================================================
+
+
 # 🗺️ Desafio WAR Estruturado – Conquista de Territórios
 
 Bem-vindo ao **Desafio WAR Estruturado!** Inspirado no famoso jogo de estratégia, este desafio convida você a programar diferentes versões do jogo WAR, evoluindo seus conhecimentos em **C** à medida que avança pelos níveis **Novato**, **Aventureiro** e **Mestre**.
