@@ -57,6 +57,7 @@ Para compilar e rodar o projeto, utilize um compilador C (como GCC) em seu termi
 Siga as instruções exibidas no terminal para cadastrar os territórios e iniciar a fase de ataque e verificação de missão.
 ````
 
+````
 ====================================================================
 # 🗺️ Desafio WAR Estruturado – Conquista de Territórios
 
