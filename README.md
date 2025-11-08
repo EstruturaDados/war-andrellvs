@@ -1,5 +1,8 @@
 # 🌍 Desafio WAR Estruturado em C
-=============================================
+
+Este repositório contém a solução progressiva para o **Desafio WAR Estruturado**, um projeto de programação em C inspirado no famoso jogo de estratégia **WAR**. O desafio foi dividido em três níveis, focando na aplicação de conceitos fundamentais da linguagem C, desde estruturas básicas até gerenciamento avançado de memória e modularização.
+
+---
 
 ## 🎯 Objetivo Geral
 
@@ -54,12 +57,14 @@ Para compilar e rodar o projeto, utilize um compilador C (como GCC) em seu termi
     ./war
     ```
 
+Siga as instruções exibidas no terminal para cadastrar os territórios e iniciar a fase de ataque e verificação de missão.
 
-````
-````
 
-====================================================================
-====================================================================
+
+
+
+
+
 
 
 # 🗺️ Desafio WAR Estruturado – Conquista de Territórios
